@@ -72,6 +72,22 @@ h1 {
   text-transform: uppercase;
 }
 
+@media(max-width: 450px) {
+  .calculator {
+    max-width: 100%;
+  }
+
+  .input {
+    font-size: 30px;
+  }
+
+  .calc__item,
+  #equal,
+  #clear {
+    font-size: 20px;
+  }
+}
+
 /* #equal,
 .devide,
 .multiply,
