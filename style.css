@@ -19,6 +19,7 @@ body {
 
 .calculator {
   max-width: 420px;
+  padding: 0 10px;
 }
 
 .calculator__inner {
